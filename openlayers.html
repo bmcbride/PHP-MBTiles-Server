@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="http://openlayers.org/dev/theme/default/style.css" type="text/css">
     <style>
     .olControlAttribution {
-    	font-size: smaller; 
+    	font-size: smaller;
     	right: 2px;
     	bottom: 2px;
-    	position: absolute; 
+    	position: absolute;
     	display: block;
     }
     </style>
@@ -69,15 +69,15 @@
                z = z + 1;
             }
             return this.url+"?db="+db+"&z="+z+"&x="+x+"&y="+((1 << z) - y - 1);
-            
+
         }
 
         map = new OpenLayers.Map('map', {
             projection: "EPSG:900913",
+            zoom: 3,
+            center: [-10224217, 4901752],
             layers: [mapquestOSM, mapquestOAM, mbTiles, hostedTiles]
         });
-
-        map.zoomToMaxExtent();
 
         var switcherControl = new OpenLayers.Control.LayerSwitcher();
 

@@ -9,10 +9,6 @@ An extremely simple PHP script for extracting images from an [MBTiles](https://g
 
 - [PHP with PDO_SQLITE enabled](http://php.net/manual/en/ref.pdo-sqlite.php)
 
-### Demos
-
-- [Leaflet](http://projects.bryanmcbride.com/php-mbtiles-server/leaflet.html)
-- [OpenLayers](http://projects.bryanmcbride.com/php-mbtiles-server/openlayers.html)
 
 ### Limitations
 

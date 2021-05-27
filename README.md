@@ -2,6 +2,7 @@ PHP-MBTiles-Server
 ==================
 
 ### About
+This is a fork of bmcbride's [PHP-MBTiles-Server](https://github.com/bmcbride/PHP-MBTiles-Server) work. With a few security updates. 
 
 An extremely simple PHP script for extracting images from an [MBTiles](https://github.com/mapbox/mbtiles-spec) sqlite database file. Examples for use with [Leaflet](http://leaflet.cloudmade.com/) and [OpenLayers](http://openlayers.org/) included.
 
@@ -9,10 +10,6 @@ An extremely simple PHP script for extracting images from an [MBTiles](https://g
 
 - [PHP with PDO_SQLITE enabled](http://php.net/manual/en/ref.pdo-sqlite.php)
 
-### Demos
-
-- [Leaflet](http://projects.bryanmcbride.com/php-mbtiles-server/leaflet.html)
-- [OpenLayers](http://projects.bryanmcbride.com/php-mbtiles-server/openlayers.html)
 
 ### Limitations
 
